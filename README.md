@@ -1,29 +1,6 @@
-# oslosykkel
+# Oslosykkel
 
-## Project setup
-```
-npm install
-```
+Oslosykkel is a hobby project that uses data from the bikesharing schemes in Oslo, Bergen and Trondheim to show both the location of stations as well as the availability of bikes and locks at each station. The project uses Vue, Node and Leaflet.js as its main frameworks and libraries.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Run the project
+The code can be run in developer mode by first starting and express server using `node server.js` to start the express server that is proxying the data provided by the bike sharing schemes. Then run `npm run serve` in order to start the Vue app in dev mode.
