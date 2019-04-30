@@ -2,8 +2,8 @@ const request = require('request-promise-native');
 // const request = require('request');
 
 const headers = {
-  'Client-Identifier': '3d96b2b506a40c2cd83e5674b45281ed',
-  'Client-Name': 'NTNUStudent-leafletVueProject'
+  'Client-Identifier': process.env.CLIENT-IDENTIFIER,
+  'Client-Name': process.env.CLIENT-NAME
 };
 
 const osloOptions = {
