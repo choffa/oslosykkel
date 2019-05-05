@@ -2,8 +2,8 @@ const request = require('request-promise-native');
 // const request = require('request');
 
 const headers = {
-  'Client-Identifier': process.env.CLIENT-IDENTIFIER,
-  'Client-Name': process.env.CLIENT-NAME
+  'Client-Identifier': process.env.CLIENTIDENTIFIER,
+  'Client-Name': process.env.CLIENTNAME
 };
 
 const osloOptions = {
